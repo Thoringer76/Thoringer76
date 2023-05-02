@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: #420085;
+    background-image: url('wave_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -18,7 +20,8 @@ height: 100vh;
     width: 500px;
     height: 750px;
     background-color: #7100E4;
-    border: 1px solid #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
     font-family: Quicksand;
